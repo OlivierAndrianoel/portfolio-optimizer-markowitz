@@ -6,6 +6,8 @@ As a Market Finance student, I developed this algorithmic portfolio allocation t
 
 This engine is designed to ingest historical market data for a basket of equities, compute the covariance matrix, and solve the convex optimization problem to find the Efficient Frontier. It identifies the Optimal Risky Portfolio (Max Sharpe Ratio) and compares its historical performance against a chosen benchmark.
 
+**NB :** This Python project was inspired by a Group Class Project for the Portfolio Management course
+
 ## Key Features
 
 * **Algorithmic Asset Allocation:** Uses Sequential Least Squares Programming (SLSQP) via `SciPy` to determine optimal asset weights, strictly bounded between 0 and 1 (long-only portfolio) with a sum constraint of 100%.
